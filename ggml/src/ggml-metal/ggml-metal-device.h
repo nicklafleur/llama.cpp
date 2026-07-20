@@ -58,7 +58,7 @@ struct ggml_metal_pipeline_with_params {
     bool cnt;
 };
 
-int ggml_metal_pipeline_max_theads_per_threadgroup(struct ggml_metal_pipeline_with_params pipeline);
+int ggml_metal_pipeline_max_threads_per_threadgroup(struct ggml_metal_pipeline_with_params pipeline);
 
 //
 // MTLCommandBuffer wrapper
